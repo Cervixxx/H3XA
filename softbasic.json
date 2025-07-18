@@ -1,0 +1,10 @@
+{
+    "name": "softbasic",
+    "require": "None",
+    "author": "Cervix",
+    "version": "0.1",
+    "description": "Basic package for code in H3XA.",
+    "package": {
+        "link": "https://github.com/Cervixxx/H3XA/softbasic.h3xc"
+    }
+}

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+## MODULE: SOFTBASIC
+## V0.1
+
+os = get.os
+Ipv4 = h.get.public(Ipv4)
+Ipv6 = h.get.public(Ipv6)
+Hour_M = h(get.date("%H:M"))
+FTime = h(get.date)
+
+# User
+
+username = h(get.user)
+hostname = h(get.hostname)
+
+# Directory
+
+BaseDirectory=$(pwd)
