@@ -6,8 +6,8 @@
 os = get.os
 Ipv4 = h.get.public(Ipv4)
 Ipv6 = h.get.public(Ipv6)
-Hour_M = h(get.date("%H:M"))
-FTime = h(get.date)
+Hour = h(get.date("%H:M"))
+FullTime = h(get.date)
 
 # User
 
