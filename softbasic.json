@@ -3,6 +3,7 @@
     "require": "None",
     "author": "Cervix",
     "version": "0.1",
+    "type": "module",
     "description": "Basic package for code in H3XA.",
     "raw-package": {
         "link": "https://raw.githubusercontent.com/Cervixxx/H3XA/refs/heads/main/softbasic.h3xc"
