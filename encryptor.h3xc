@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sha256sum() {
+  echo -n "$1" | sha256sum | awk '{print $1}'
+}
+
+md5sum() {
+  echo -n "$1" | md5sum | awk '{print $1}'
+}

@@ -1,0 +1,6 @@
+{
+  "name": "crypto",
+  "type": "module",
+  "require": "None",
+  "desc": "Hashing utilities for h3x"
+}
