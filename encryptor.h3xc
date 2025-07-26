@@ -1,7 +1,7 @@
-sha256_string() {
-  printf '%s' "$1" | sha256sum | awk '{print $1}'
+sha256sum() {
+  echo -n "$1" | /usr/bin/sha256sum | awk '{print $1}'
 }
 
-md5_string() {
-  printf '%s' "$1" | md5sum | awk '{print $1}'
+md5sum() {
+  echo -n "$1" | /usr/bin/md5sum | awk '{print $1}'
 }
