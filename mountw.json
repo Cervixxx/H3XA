@@ -1,0 +1,6 @@
+{
+  "name": "mountw",
+  "type": "module",
+  "require": "nodejs, npm",
+  "desc": "Web mount module"
+}
