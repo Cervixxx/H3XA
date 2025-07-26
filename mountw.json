@@ -3,5 +3,5 @@
   "type": "module",
   "require": "nodejs, npm",
   "Version": "0.1B",
-  "desc": "Web mount module"
+  "Desc": "Web mount module"
 }
