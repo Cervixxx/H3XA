@@ -2,5 +2,6 @@
     "name": "basicore",
     "require": "None",
     "type": "module",
+    "Version": "0.1B",
     "Desc": "Basic package for code in H3XA."
 }
