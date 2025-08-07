@@ -3,7 +3,7 @@
 ## MODULE: SOFTBASIC
 ## V0.1
 
-user = h.get.user
+user = h(get.user)
 os = get.os
 Ipv4 = h.get.public(Ipv4)
 Ipv6 = h.get.public(Ipv6)
