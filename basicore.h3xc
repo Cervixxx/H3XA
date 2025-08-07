@@ -9,15 +9,7 @@ Ipv4 = h.get.public(Ipv4)
 Ipv6 = h.get.public(Ipv6)
 Hour = h(get.date("%H:M"))
 FullTime = h(get.date)
-<<<<<<< HEAD
 hostname = h(get.hostname)
-=======
-
-# User
-
-username = h(get.user)
-hostname = h(get.hostname)  
->>>>>>> 101354a23c423857375ff667e9cde4a4d320ee14
 
 # Directory
 
