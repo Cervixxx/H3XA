@@ -3,15 +3,12 @@
 ## MODULE: SOFTBASIC
 ## V0.1
 
+user = h.get.user
 os = get.os
 Ipv4 = h.get.public(Ipv4)
 Ipv6 = h.get.public(Ipv6)
 Hour = h(get.date("%H:M"))
 FullTime = h(get.date)
-
-# User
-
-username = h(get.user)
 hostname = h(get.hostname)
 
 # Directory
